@@ -1,0 +1,547 @@
+/* @import url('https://use.typekit.net/pzt7zyi.css%22'); */
+@import url("https://p.typekit.net/p.css?s=1&k=pzt7zyi&ht=tk&f=27919.27920.27993.27999.27954.27958.27921.38215.38216.38218.38221&a=142011581&app=typekit&e=css");
+
+@font-face {
+    font-family : "korolev-condensed";
+    src         : url("https://use.typekit.net/af/364087/00000000000000007735e8c4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/364087/00000000000000007735e8c4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/364087/00000000000000007735e8c4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style  : normal;
+    font-weight : 700;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family : "korolev-condensed";
+    src         : url("https://use.typekit.net/af/7a03c9/00000000000000007735e8c0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/7a03c9/00000000000000007735e8c0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/7a03c9/00000000000000007735e8c0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+    font-display: auto;
+    font-style  : normal;
+    font-weight : 300;
+    font-stretch: normal;
+}
+
+
+.header {
+    background-color: #fff;
+    height          : 129px;
+    width           : 100%;
+    max-width       : 1280px;
+    margin          : 0 auto;
+    padding         : 15px;
+}
+
+.logo-container {
+    width  : 100%;
+    display: flex;
+}
+
+.col-logo {
+    width          : 60%;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+    height         : 92px;
+}
+
+.col-btns {
+    width          : 40%;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.btn-search,
+.btn-login,
+.btn-cart {
+    border          : unset;
+    background-color: transparent;
+    width           : 20px;
+    height          : 20px;
+    margin          : 0 10px;
+}
+
+.menu {
+    display        : flex;
+    justify-content: center;
+    gap            : 30px;
+    align-items    : center;
+    height         : 100%;
+    padding        : 2px 10px 15px;
+    margin         : 0px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: unset;
+    color          : #000;
+    font-family    : "korolev-condensed", sans-serif;
+    font-weight    : bold;
+    text-transform : uppercase;
+    font-size      : 16px;
+}
+
+.banner-container {
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+}
+
+.slider {
+    max-width: 1280px;
+    width    : 100%;
+    margin   : 20px auto;
+}
+
+.category-title,
+.collection-title {
+    width      : 100%;
+    text-align : center;
+    color      : #000;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size  : 20px;
+    padding    : 16px 0px;
+}
+
+.collection-products {
+    display        : flex;
+    justify-content: center;
+}
+
+.slider-button {
+    background-color: transparent;
+    border          : unset;
+}
+
+.product {
+    width : auto;
+    margin: 0 10px;
+}
+
+.product-name-container {
+    margin         : 10px 0;
+    justify-content: center;
+    display        : flex;
+}
+
+.product-name {
+    font-family: Roboto, sans-serif;
+    font-size  : 16px;
+    font-weight: bold;
+    padding    : 10px 0;
+    text-align : center;
+    width      : 100%;
+    margin-left: 20px;
+}
+
+.wishlist {
+    background-color: transparent;
+    border          : unset;
+    width           : 20px;
+    height          : 20px;
+    padding         : 10px 0;
+}
+
+.wishlist:hover {
+    cursor: pointer;
+    filter: invert(15%) sepia(80%) saturate(5723%) hue-rotate(351deg) brightness(90%) contrast(72%);
+}
+
+.brand,
+.price {
+    font-family: Roboto, sans-serif;
+    font-size  : 12px;
+    font-weight: normal;
+    text-align : center;
+    width      : 100%;
+    display    : block;
+    margin     : 5px 0px;
+}
+
+.add {
+    width           : 100%;
+    height          : 42px;
+    border          : 1px solid #000;
+    font-family     : Roboto, sans-serif;
+    font-size       : 12px;
+    background-color: #fff;
+    margin-top      : 10px;
+    font-weight     : bold;
+}
+
+.add:hover {
+    background-color: #000;
+    color           : #fff;
+    cursor          : pointer;
+}
+
+.categories-container {
+    display       : flex;
+    justify-self  : center;
+    width         : 100%;
+    max-width     : 1280px;
+    flex-direction: column;
+    margin        : 30px auto;
+}
+
+.category-row {
+    display    : flex;
+    gap        : 20px;
+    align-items: center;
+}
+
+.category-col-50 {
+    width: 50%;
+}
+
+.category-col-30 {
+    width: 33%;
+}
+
+.new-letter-container {
+    margin        : 40px auto;
+    max-width     : 500px;
+    width         : 100%;
+    display       : flex;
+    flex-direction: column;
+}
+
+.new-letter-container h3 {
+    width      : 100%;
+    text-align : center;
+    color      : #000;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size  : 25px;
+    margin     : 0px 0px 10px;
+
+}
+
+.new-letter-container p {
+    width      : 100%;
+    text-align : center;
+    color      : #111111;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size  : 14px;
+    margin     : 0px 0px 10px;
+}
+
+.new-letter-input {
+    display   : flex;
+    margin-top: 10px;
+}
+
+.new-letter-input input {
+    width           : 70%;
+    height          : 37px;
+    background-color: #fff;
+    border          : 1px solid #000;
+    padding         : 5px;
+}
+
+.new-letter-input button {
+    width           : 30%;
+    height          : 50px;
+    background-color: #fff;
+    border          : 1px solid #000;
+    padding         : 5px;
+    font-family     : Roboto, sans-serif;
+    font-weight     : bold;
+    font-size       : 14px;
+}
+
+.new-letter-input button:hover {
+    background-color: #000;
+    color           : #fff;
+    cursor          : pointer;
+}
+
+.social-media {
+    display        : flex;
+    max-width      : 1280px;
+    justify-content: center;
+    gap            : 40px;
+    margin         : 60px auto;
+    width          : 100%;
+}
+
+.footer-links {
+    list-style     : unset;
+    display        : flex;
+    gap            : 30px;
+    justify-content: center;
+}
+
+.footer-links li {
+    text-decoration: unset;
+    color          : #000;
+    font-family    : "korolev-condensed", sans-serif;
+    font-weight    : bold;
+    text-transform : uppercase;
+    font-size      : 12px;
+    list-style     : none;
+}
+
+footer {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.copy-rights {
+    text-align    : center;
+    width         : 100%;
+    font-family   : Roboto, sans-serif;
+    font-weight   : normal;
+    font-size     : 11px;
+    color         : #1f1f1f;
+    margin-top    : 20px;
+    text-transform: uppercase;
+}
+
+/* LOGIN */
+
+.login-conatiner {
+    display        : flex;
+    justify-content: center;
+    width          : 100%;
+    margin         : 40px auto;
+    max-width      : 1280px;
+}
+
+.login-conatiner h3 {
+    font-family   : Roboto, sans-serif;
+    font-size     : 20px;
+    font-weight   : bold;
+    color         : #000;
+    text-align    : center;
+    margin-bottom : 20px;
+    text-transform: lowercase;
+}
+
+.login {
+    border-right: 1px solid #000;
+}
+
+.login,
+.register {
+    width          : 50%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+    padding        : 0 20px;
+    align-items    : center;
+}
+
+.login form,
+.register form {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+.login form div,
+.register form div {
+    display: block;
+    width  : 460px;
+    padding: 5px 0px 30px;
+}
+
+.login form div input,
+.register form div input {
+    width  : 100%;
+    border : 1px solid #000;
+    height : 45px;
+    padding: 2px 5px;
+}
+
+.login form div label,
+.register form div label {
+    font-family  : Roboto, sans-serif;
+    font-size    : 11px;
+    margin-bottom: 5px;
+}
+
+.login-conatiner button {
+    width           : 240px;
+    height          : 44px;
+    background-color: #000;
+    color           : #fff;
+    border          : unset;
+    font-size       : 13px;
+    font-weight     : bold;
+    text-transform  : uppercase;
+    display         : block;
+    margin          : 20px auto;
+}
+
+.login-conatiner button:hover {
+    cursor          : pointer;
+    background-color: #fff;
+    color           : #000;
+    border          : 1px solid #000;
+}
+
+.login-conatiner a {
+    font-family: Roboto, sans-serif;
+    font-size  : 12px;
+    margin     : 10px auto;
+    text-align : center;
+    width      : 100%;
+    color      : #000;
+}
+
+/* CART */
+.cart-container {
+    display        : flex;
+    justify-content: center;
+    width          : 100%;
+    margin         : 40px auto;
+    max-width      : 1280px;
+}
+
+.cart {
+    width       : 70%;
+    margin-right: 60px;
+}
+
+.cart thead th {
+    padding      : 10px 0;
+    width        : 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cart th {
+    font-family   : Roboto, sans-serif;
+    font-size     : 12px;
+    text-transform: uppercase;
+    font-weight   : bold;
+    padding       : 10px 0;
+}
+
+.cart td {
+    text-transform: uppercase;
+    padding       : 20px 0;
+    text-align    : center;
+}
+
+.cart td:nth-child(2) {
+    width  : 228px;
+    display: table;
+    margin : 0;
+}
+
+.cart .name {
+    font-family: Roboto, sans-serif;
+    font-size  : 14px;
+    font-weight: bold;
+    text-align : left;
+    width      : 100%;
+    display    : block;
+}
+
+.cart .seller {
+    font-family: Roboto, sans-serif;
+    font-size  : 11px;
+    font-weight: lighter;
+    text-align : left;
+    width      : 100%;
+    display    : block;
+}
+
+.cart .price {
+    font-family: Roboto, sans-serif;
+    font-size  : 14px;
+    font-weight: bold;
+    text-align : left;
+    width      : 100px;
+    margin     : 0 30px;
+    display    : block;
+    text-align : center;
+}
+
+.cart .quantity-selector {
+    width          : 96px;
+    height         : 34px;
+    display        : flex;
+    justify-content: space-between;
+    border         : 1px solid #000;
+}
+
+.cart .quantity-selector input {
+    width     : 33%;
+    text-align: center;
+    border    : unset;
+}
+
+.cart .quantity-selector button {
+    width           : auto;
+    background-color: transparent;
+    border          : unset;
+    cursor          : pointer;
+}
+
+.cart .remove {
+    width           : auto;
+    background-color: transparent;
+    border          : unset;
+    cursor          : pointer;
+}
+
+.cart td:last-child {
+    width           : 40px;
+    background-color: transparent;
+    border          : unset;
+    cursor          : pointer;
+}
+
+.totals {
+    background: #f0f0f0;
+    height    : 400px;
+    padding   : 30px 20px;
+}
+
+.subtotal {
+    display        : flex;
+    width          : 100%;
+    justify-content: space-between;
+    margin-bottom  : 5px;
+    font-family    : Roboto, sans-serif;
+    font-size      : 19px;
+    font-weight    : bold;
+}
+
+.buy button {
+    width           : 100%;
+    height          : 44px;
+    background-color: #000;
+    color           : #fff;
+    border          : unset;
+    font-size       : 13px;
+    font-weight     : bold;
+    text-transform  : lowercase;
+    display         : block;
+    margin          : 20px auto;
+}
+
+.shipping {
+    background-color: #fff;
+    padding         : 25px 20px;
+    font-family     : Roboto, sans-serif;
+}
+
+.shipping h4 {
+    text-transform: uppercase;
+    font-size     : 13px;
+    margin        : 5px 0;
+
+}
+
+.shipping p {
+    text-transform: unsets;
+    font-size     : 12px;
+    font-weight   : lighter;
+}
